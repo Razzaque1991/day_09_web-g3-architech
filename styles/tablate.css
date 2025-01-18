@@ -49,7 +49,18 @@
     }
 /* --------------------banner-start*/
 
-
+/* ------------------------------------------image-galry-start */
+.img-container{
+    width:100%;
+    height:28.75rem;
+    margin: 3rem auto 3rem;
+    flex-direction: column-reverse;
+    text-align: center;  
+}
+.img-left-container{
+    margin: 2rem 0 2rem;
+}
+/* ------------------------------------------image-galry---end */
 
 
 

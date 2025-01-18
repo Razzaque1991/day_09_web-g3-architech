@@ -94,8 +94,7 @@ margin-bottom: 1rem;
     margin: 5rem auto 3rem;
     display: flex;
     justify-content:space-evenly;
-    align-items: center;
-
+    align-items: center;   
 }
 .img-left-container{
     display: grid;
@@ -131,6 +130,75 @@ margin-bottom: 1rem;
     margin-top: .5rem; 
 }
 /*-------------------------------------- img-container-start */
+
+/* ----------------------------------year-start */
+.year-container{
+    width:90rem;
+    height:66rem;
+    margin: 2rem auto 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.left-year-container .border-div{
+    width:29.25rem;
+    height:6.6rem;
+    border-left: 4px solid #FF900E;
+    margin-bottom: 1rem;
+}
+.border-div h1{
+    font-size:2.8rem;
+    font-weight: bold;
+    color:#131313;
+    padding-left: 1rem;
+}
+.left-year-container p{
+    font-size:1rem;
+    font-weight:400;
+    color:#727272;
+    margin-bottom: 1rem;
+}
+.card-container{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    gap: 2rem;
+}
+.card-container .card{
+    width:36.6rem;
+    height:10.6rem;
+    box-shadow: 5px 5px 5px rgb(238, 236, 236);
+    padding: 2rem;
+}
+.card h1{
+    font-size:1.25rem;
+    font-weight:600;
+    color: #131313; 
+    margin-bottom: 1rem; 
+}
+
+.year-btn button {
+    width: 21.3rem;
+    height: 12.5rem;
+    color: white;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 6px;
+    position: relative;
+    bottom: 8rem;
+    left: -5rem;
+}
+.year-btn button h1{
+    font-size:3rem;
+    font-weight:bold;
+    padding: .5rem;
+}
+ .ex{
+    font-size:1.5rem;
+    font-weight:400;
+    padding: .5rem;
+}   
+}
+
+/* ----------------------------------year---end */
 
 
 /* ---------------------banner-section-style---end */
