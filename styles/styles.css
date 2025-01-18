@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*  font-family: "Work Sans", serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Work Sans", serif;
+}
+
+/* ---------------------banner-section-style-start */
+.banner-container{
+    width: 120rem;
+    height: 83rem;
+    background-color:#d8cdc2;
+}
+/* --------------------nav-start */
+.nav-container{
+    width:120rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 6rem;
+}
+ul li{
+ list-style: none;
+}
+li a{
+    text-decoration: none;
+    font-size:1.1rem;
+    font-weight:400;
+    color:#131313;
+}
+.logo h1{
+    font-size:2.8rem;
+    font-weight: bold;
+    color:#131313;
+}
+
+/* --------------------nav----end*/
+/* ------------------------------------banner-heading-start */
+.banner-heading{
+    width:54rem;
+    height:14rem;
+    margin: 8rem auto 1rem;
+    text-align: center;
+}
+.banner-heading h1{
+font-size:4rem;
+font-weight:bold;
+color:#131313;
+margin-bottom: 1rem;
+}
+.banner-heading p{
+    font-size:1rem;
+    font-weight:400;
+    color:#727272;
+    margin-bottom: 1rem;
+}
+.banner-btn button{
+    width:11.25rem;
+    height:4rem;
+    background-color:#FF900E;
+    color:#FFFFFF;
+    border:none;
+    border-radius:10px; 
+    margin-bottom: 1rem;
+}
+.banner-img{
+    width:90rem;
+    height:43.75rem;
+    margin:8rem auto 1rem;
+    background-image: url('../images/banner.png');
+    object-fit: fill;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* --------------------------------------banner-heading-end */
+
+
+/* ---------------------banner-section-style---end */
